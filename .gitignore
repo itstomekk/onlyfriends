@@ -1,0 +1,22 @@
+# Deny by default: nothing is tracked unless it is listed below.
+# Private data (data/, config.json, demo/ output, browser state, images) can never be added by accident.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/DEVELOPMENT.md
+!/UPDATING.md
+!/*.py
+!/config.example.json
+!/start-hidden.vbs
+!/js/
+!/js/*.js
+/js/ig_profile.js
+!/tests/
+!/tests/*.py
+!/docs/
+!/docs/**
+!/.github/
+!/.github/readme/
+!/.github/readme/*.png
+__pycache__/
